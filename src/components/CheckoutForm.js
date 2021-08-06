@@ -14,51 +14,45 @@ const CheckoutForm = (props) => {
     <>
       <form onSubmit={handleSubmit}>
         <h2>Checkout Form</h2>
-        <label htmlFor='firstName'>
+        <label>
           First Name:
           <input
-            id='firstName'
             name="firstName"
             value={values.firstName}
             onChange={handleChanges}
           />
         </label>
-        <label htmlFor='lastName'>
+        <label>
           Last Name:
           <input
-            id='lastName'
             name="lastName"
             value={values.lastName}
             onChange={handleChanges}
           />
         </label>
-        <label htmlFor='address'>
+        <label>
           Address:
           <input
-            id='address'
             name="address"
             value={values.address}
             onChange={handleChanges}
           />
         </label>
-        <label htmlFor='city'>
+        <label>
           City:
-          <input 
-          id='city'
+          <input
           name="city" 
           value={values.city} onChange={handleChanges} />
         </label>
-        <label htmlFor='state'>
+        <label>
           State:
-          <input 
-          id='state'
+          <input
           name="state" 
           value={values.state} onChange={handleChanges} />
         </label>
-        <label htmlFor='zip'>
+        <label>
           Zip:
-          <input 
-          id='zip'
+          <input
           name="zip" 
           value={values.zip} onChange={handleChanges} />
         </label>
